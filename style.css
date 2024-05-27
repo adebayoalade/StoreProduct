@@ -1,0 +1,27 @@
+body {
+  padding-inline: 10px;
+  padding-block: 10px;
+  background-color: lightgrey;
+}
+
+.product {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: capitalize;
+}
+.card {
+  width: 300px;
+  height: auto;
+  padding: 25px;
+  border: 1px solid black;
+  font-weight: 600;
+  background-color: blueviolet;
+  margin: auto;
+}
+.image_style {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
