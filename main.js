@@ -15,6 +15,9 @@
   const card = document.createElement("div");
   card.classList.add("card");
 
+  const container = document.getElementById("root");
+  container.classList.add("container");
+
   // Image of the card 
   const img = document.createElement("img");
   img.src = data.image;
@@ -44,7 +47,7 @@
  card.appendChild(title);
  card.appendChild(userId);
 
- document.body.appendChild(card);
+ container.appendChild(card);
  }
 
  fetchDataAndStore();
